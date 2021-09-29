@@ -1,0 +1,238 @@
+.letter_o{
+    position: relative;
+    top: 45px;
+    left:0px;
+}
+.rectangle{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+.rectangle_1{
+    background:black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 10px;
+    left:25px; 
+}
+.rectangle_2{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.rectangle_3{
+    background:black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 10px;
+    left:65px; 
+}
+
+.letter_u{
+    position: relative;
+    top: 45px;
+    left: 120px;
+}
+.rectangle_4{
+    background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+
+    position: absolute;
+    top: 10;
+    left: 0;
+}
+.rectangle_5{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+.rectangle_6{
+    background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 10;
+    left: 40;
+}
+
+.letter_h{
+    position: relative;
+    top: 0;
+    left: 220px;
+}
+.rectangle_7{
+    background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.rectangle_8{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.rectangle_9{
+    background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 60;
+    left: 0;
+}
+.rectangle_10{
+  background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 60;
+    left: 40;  
+}
+
+.letter_n{
+    position: relative;
+    top: 0;
+    left: 320px;
+}
+.rectangle_11{
+    background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 60;
+    left: 0;
+}
+.rectangle_12{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.rectangle_13{
+    background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 60;
+    left: 40;  
+}
+
+.letter_v{
+    position: relative;
+    top: 45;
+    left: 420px;
+}
+.rectangle_14{
+    background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    transform: rotate(-20deg);
+
+    position: absolute;
+    top: 10;
+    left: 0;
+}
+.rectangle_15{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+.rectangle_16{
+    background: black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 10;
+    left: 40;
+}
+
+.letter_a{
+    position: relative;
+    top: 45;
+    left: 490px;
+}
+.rectangle_17{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+.rectangle_18{
+    background:black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 10px;
+    left:25px; 
+}
+.rectangle_19{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.rectangle_20{
+    background:black;
+    width: 20px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top: 10px;
+    left:65px; 
+}
+.rectangle_21{
+    background:black;
+    width: 30px;
+    height: 10px;
+    border-radius:50%;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}

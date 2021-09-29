@@ -1,0 +1,909 @@
+
+/* this is a comment in CSS. MOVE THIS STYLE TO A SEPARATE FILE */
+.letter {
+    width:50px; /*resize as you see fit */
+    height:150px; /*resize as you see fit */
+    display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+    border: 1px solid #000; /*feel free to remove or hide this rule */
+    position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+
+.letter letter-o{}
+.stem{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+
+}
+.stem_1{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+
+}
+.stem_2{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.stem_3{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.letter letter-a{}
+.stem_2{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.stem_3{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.stem_1{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+
+}
+.small_bowl_stem{
+    background: black;
+    width: 10px;
+    height:40px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+.small_bowl_stem_2{
+    background: black;
+    width: 35px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.letter letter-b{}
+.stem{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+
+}
+.stem_1{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+
+}
+.stem_2{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.stem_3{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.small_upper_stem{
+    background: black;
+    width: 10px;
+    height:40px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+
+.letter letter-c{}
+.stem{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+
+}
+.stem_1{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+
+}
+.stem_3{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.letter letter-d{}
+.stem{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+
+}
+.stem_1{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+
+}
+.stem_2{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.stem_3{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.small_upper_stem_right{
+    background: black;
+    width: 10px;
+    height:40px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top:0px;
+    left: 40px;
+}
+
+.letter letter-e{}
+.stem{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+
+}
+.stem_1{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+
+}
+.stem_3{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.middle_stem_e{
+    background: black;
+    width: 35px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+.right_upper_stem_e{
+    background: black;
+    width: 10px;
+    height: 40px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+
+}
+
+.letter letter-f{}
+.upper_stem_f{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.long_stem_f{
+    background: black;
+    width: 10px;
+    height: 85px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+}
+.middle_stem_f{
+     background: black;
+    width: 35px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+
+.letter letter-g{}
+.bowl_straight_stem_g{
+    background: black;
+    width: 10px;
+    height: 60px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+.bowl_ngang_stem_g{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+}
+
+.letter letter-h{}
+.right_stem_h{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.letter-i{
+    width:10px;
+}
+.dot{
+    background: black;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left:0;
+}
+
+.letter-j{
+    width: 10px
+}
+.straight_stem_j{
+    background: black;
+    width: 10px;
+    height: 105px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+}
+.ngang_stem_j{
+    background: black;
+    width: 25px;
+    height: 10px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 140px;
+    left: -15px;
+}
+.dot_j{
+    background: black;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left:0px;
+}
+
+.letter-l{
+    width:10px;
+}
+.long_stem_l{
+   background: black;
+    width: 10px;
+    height: 100px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+}
+
+.letter letter-k{}
+.upper_stem_k{
+   background: black;
+    width: 10px;
+    height: 30px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.middle_stem_k{
+    background: black;
+    width: 35px;
+    height: 10px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+}
+.bottom_stem_k{
+    background: black;
+    width: 10px;
+    height: 55px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+}
+
+.letter-m{
+    width: 65px;
+}
+.ngang_stem_m{
+    background: black;
+    width: 35px;
+    height: 10px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+
+}
+.long_stem_m{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+.long_stem_m_1{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.long_stem_m_2{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+}
+
+.letter letter-p{}
+.bottom_stem_p{
+    background: black;
+    width: 10px;
+    height:40px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top:90px;
+    left: 0px;
+}
+.stem_p{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.stem_2_p{
+    background: black;
+    width: 10px;
+    height: 55px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+
+.letter letter-q{}
+.bottom_stem_q{
+    background: black;
+    width: 10px;
+    height:40px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top:90px;
+    right: 0px;
+}
+
+.letter letter-r{}
+.stem_r{
+    background: black;
+    width: 10px;
+    height: 25px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.letter letter-s{}
+.short_stem_s{
+    background: black;
+    width: 10px;
+    height: 20px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+
+}
+.ngang_stem_s{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+.long_stem_s{
+    background: black;
+    width: 10px;
+    height: 45px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 55px;
+    right: 0px;
+
+}
+.ngang_stem_s_2{
+    background: black;
+    width: 50px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+
+.letter letter-t{}
+.stem_t{
+    background: black;
+    width: 10px;
+    height: 30px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.letter letter-u{}
+
+.letter letter-v{}
+.left_stem_2{
+    background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.bottom_stem_v{
+    background: black;
+    width: 30px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+
+.letter-w{
+    width:80px;
+}
+.stem_2_w{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+.left_stem_2_w{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.bottom_stem_w{
+    background: black;
+    width: 30px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+.bottom_stem_w_1{
+    background: black;
+    width: 30px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 35px;
+}
+.right_stem_w{
+   background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 70px; 
+}
+
+.letter-x{
+    width: 70px;
+}
+.middle_stem_x{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.ngang_stem_x{
+    background: black;
+    width: 40px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.ngang_stem_x_1{
+    background: black;
+    width: 40px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    right: 0px;
+}
+.ngang_stem_x_2{
+    background: black;
+    width: 25px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+.ngang_stem_x_3{
+    background: black;
+    width: 25px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.letter-y{}
+
+.letter letter-z{}
+.short_stem_z{
+    background: black;
+    width: 10px;
+    height: 20px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+
+}
+.long_stem_z{
+    background: black;
+    width: 10px;
+    height: 45px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
