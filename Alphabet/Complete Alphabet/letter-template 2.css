@@ -4,7 +4,7 @@
     width:50px; /*resize as you see fit */
     height:150px; /*resize as you see fit */
     display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-/*    border: 1px solid #000; feel free to remove or hide this rule */
+/*    border: 1px solid #000; */
     position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
     margin: 3px;
         	}
