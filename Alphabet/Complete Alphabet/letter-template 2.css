@@ -540,56 +540,71 @@
 }
 
 .letter-m{
-    width: 65px;
+    width: 80px;
 }
-.ngang_stem_m{
+.stem_2_m{
     background: black;
-    width: 35px;
-    height: 10px;
+    width: 10px;
+    height: 70px; 
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
     border-bottom-left-radius: 80px 80px;
     position: absolute;
     top: 30px;
-    left: 0px;
+    right: 0px;
+}
+.left_stem_2_m{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+.top_stem_m{
+    background: black;
+    width: 30px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.top_stem_m_1{
+    background: black;
+    width: 30px;
+    height: 10px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.left_stem_m{
+   background: black;
+    width: 10px;
+    height: 55px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 45px;
+    left: 0px; 
+}
 
-}
-.long_stem_m{
-    background: black;
-    width: 10px;
-    height: 70px; 
-    border-top-left-radius: 80px 80px;
-    border-top-right-radius: 80px 80px;
-    border-bottom-right-radius: 80px 80px;
-    border-bottom-left-radius: 80px 80px;
-    position: absolute;
-    top: 30px;
-    left: 25px;
-}
-.long_stem_m_1{
-    background: black;
-    width: 10px;
-    height: 70px; 
-    border-top-left-radius: 80px 80px;
-    border-top-right-radius: 80px 80px;
-    border-bottom-right-radius: 80px 80px;
-    border-bottom-left-radius: 80px 80px;
-    position: absolute;
-    top: 30px;
-    left: 40px;
-}
-.long_stem_m_2{
-    background: black;
-    width: 10px;
-    height: 70px; 
-    border-top-left-radius: 80px 80px;
-    border-top-right-radius: 80px 80px;
-    border-bottom-right-radius: 80px 80px;
-    border-bottom-left-radius: 80px 80px;
-    position: absolute;
-    top: 30px;
-    left: 55px;
+.letter-n{
+    width: 45px;
 }
 
 .letter letter-p{}
