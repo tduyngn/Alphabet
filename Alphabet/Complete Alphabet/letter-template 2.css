@@ -442,7 +442,7 @@
     background: black;
     width:10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 35%;
     position: absolute;
     top: 30px;
     left:0;
@@ -479,7 +479,7 @@
     background: black;
     width:10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 35%;
     position: absolute;
     top: 30px;
     left:0px;
