@@ -832,7 +832,7 @@
 }
 
 .letter-x{
-    width: 70px;
+    width: 50px;
 }
 .middle_stem_x{
     background: black;
@@ -844,11 +844,11 @@
     border-bottom-left-radius: 80px 80px;
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 20px;
 }
 .ngang_stem_x{
     background: black;
-    width: 40px;
+    width: 30px;
     height: 10px; 
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
@@ -860,7 +860,7 @@
 }
 .ngang_stem_x_1{
     background: black;
-    width: 40px;
+    width: 30px;
     height: 10px; 
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
@@ -868,11 +868,11 @@
     border-bottom-left-radius: 80px 80px;
     position: absolute;
     top: 90px;
-    right: 0px;
+    left: 20px;
 }
 .ngang_stem_x_2{
     background: black;
-    width: 25px;
+    width: 15px;
     height: 10px; 
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
@@ -884,7 +884,7 @@
 }
 .ngang_stem_x_3{
     background: black;
-    width: 25px;
+    width: 15px;
     height: 10px; 
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
@@ -892,7 +892,7 @@
     border-bottom-left-radius: 80px 80px;
     position: absolute;
     top: 30px;
-    right: 0px;
+    left: 35px;
 }
 
 .letter-y{}
