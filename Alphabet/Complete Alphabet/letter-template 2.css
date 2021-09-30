@@ -438,13 +438,25 @@
 .letter-i{
     width:10px;
 }
+.stem_i{
+    background: black;
+    width: 10px;
+    height: 70px; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
 .dot{
     background: black;
     width:10px;
     height: 10px;
     border-radius: 35%;
     position: absolute;
-    top: 30px;
+    top: 15px;
     left:0;
 }
 
@@ -454,13 +466,13 @@
 .straight_stem_j{
     background: black;
     width: 10px;
-    height: 105px; 
+    height: 120px; 
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
     border-bottom-left-radius: 80px 80px;
     position: absolute;
-    top: 45px;
+    top: 30px;
     left: 0px;
 }
 .ngang_stem_j{
@@ -481,7 +493,7 @@
     height: 10px;
     border-radius: 35%;
     position: absolute;
-    top: 30px;
+    top: 15px;
     left:0px;
 }
 
