@@ -65,7 +65,7 @@
 
 .letter letter-a{}
 .stem_2{
-    border: 1px solid black;
+    background: black;
     width: 10px;
     height: 55px; 
     border-top-left-radius: 80px 80px;
