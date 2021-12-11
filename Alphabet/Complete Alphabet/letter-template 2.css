@@ -2,85 +2,84 @@
 html, body {
     background: rgb(255, 255, 255);
     overflow: hidden;
-    margin: 0;
   }
 .letter {
-    width:2.6178010471204187vw; /*resize as you see fit */
-    height:7.81657113079729vw; /*resize as you see fit */
+    width:50px; /*resize as you see fit */
+    height:150px; /*resize as you see fit */
     display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-    /*border: 1px solid fuchsia; */
+    border: 1px solid fuchsia;
     position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
-    margin: 0.15706806282722513vw;
+    margin: 3px;
         	}
 
 
             .stem{
-                background: rgb(255, 0, 0);
-                width: 0.5211047420531527vw;
-                height: 2.8660760812923396vw; 
+                background: rgb(0, 0, 0);
+                width: 10px;
+                height: 55px; 
                 border-top-left-radius: 80px 80px;
                 border-top-right-radius: 80px 80px;
                 border-bottom-right-radius: 80px 80px;
                 border-bottom-left-radius: 80px 80px;
                 position: absolute;
-                top: 2.344971339239187vw;
-                left: 0;
+                top: 45px;
+                left: 0px;
             
             }
             .stem_1{
-                background: rgb(255, 0, 0);
-                width: 2.6055237102657633vw;
-                height: 0.5211047420531527vw; 
+                background: rgb(0, 0, 0);
+                width: 50px;
+                height: 10px; 
                 border-top-left-radius: 80px 80px;
                 border-top-right-radius: 80px 80px;
                 border-bottom-right-radius: 80px 80px;
                 border-bottom-left-radius: 80px 80px;
                 position: absolute;
-                top: 4.689942678478374vw;
-                left: 0vw;
+                top: 90px;
+                left: 0px;
             
             }
             .stem_2{
-                background: rgb(255, 0, 0);
-                width: 0.5211047420531527vw;
-                height: 2.8660760812923396vw; 
+                background: rgb(0, 0, 0);
+                width: 10px;
+                height: 55px; 
                 border-top-left-radius: 80px 80px;
                 border-top-right-radius: 80px 80px;
                 border-bottom-right-radius: 80px 80px;
                 border-bottom-left-radius: 80px 80px;
                 position: absolute;
-                top: 1.5633142261594581vw;
-                left: 2.084418968212611vw;
+                top: 30px;
+                left: 40px;
             }
             .stem_3{
-                background: rgb(255, 0, 0);
-                width: 2.6055237102657633vw;
-                height: 0.5211047420531527vw; 
+                background: rgb(0, 0, 0);
+                width: 50px;
+                height: 10px; 
                 border-top-left-radius: 80px 80px;
                 border-top-right-radius: 80px 80px;
                 border-bottom-right-radius: 80px 80px;
                 border-bottom-left-radius: 80px 80px;
                 position: absolute;
-                top: 1.5633142261594581vw;
-                left: 0vw;
+                top: 30px;
+                left: 0px;
             }
             .long_stem_l{
-                background: rgb(255, 0, 0);
-                 width: 0.5211047420531527vw;
-                 height: 5.211047420531527vw; 
+                background: rgb(0, 0, 0);
+                 width: 10px;
+                 height: 100px; 
                  border-top-left-radius: 80px 80px;
                  border-top-right-radius: 80px 80px;
                  border-bottom-right-radius: 80px 80px;
                  border-bottom-left-radius: 80px 80px;
                  position: absolute;
-                 top: 0vw;
-                 left: 0vw; 
+                 top: 0px;
+                 left: 0px; 
              }
 
 .letter-o{}
 
 
-/*.letter letter-a{}
+.letter letter-a{}
 .stem_2{
     background: black;
     width: 10px;
@@ -245,9 +244,47 @@ html, body {
     position: absolute;
     top: 30px;
     left: 0px;
-}*/
+}
 
-.letter letter-d{}
+.letter letter-d{
+    
+    .stem_1{
+        background: black;
+        width: 50px;
+        height: 10px; 
+        border-top-left-radius: 80px 80px;
+        border-top-right-radius: 80px 80px;
+        border-bottom-right-radius: 80px 80px;
+        border-bottom-left-radius: 80px 80px;
+        position: absolute;
+        top: 90px;
+        left: 0px;
+    
+    }
+    .stem_2{
+        background: black;
+        width: 10px;
+        height: 55px; 
+        border-top-left-radius: 80px 80px;
+        border-top-right-radius: 80px 80px;
+        border-bottom-right-radius: 80px 80px;
+        border-bottom-left-radius: 80px 80px;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+    .stem_3{
+        background: black;
+        width: 50px;
+        height: 10px; 
+        border-top-left-radius: 80px 80px;
+        border-top-right-radius: 80px 80px;
+        border-bottom-right-radius: 80px 80px;
+        border-bottom-left-radius: 80px 80px;
+        position: absolute;
+        top: 30px;
+        left: 0px;}
+}
 /*.stem{
     background: rgb(255, 0, 0);
     width: 10px;
@@ -300,19 +337,19 @@ html, body {
 }*/
 
 .small_upper_stem_right{
-    background: rgb(255, 0, 0);
-    width: 0.5211047420531527vw;
-    height:2.084418968212611vw; 
+    background: rgb(0, 0, 0);
+    width: 10px;
+    height:40px; 
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
     border-bottom-left-radius: 80px 80px;
     position: absolute;
-    top:0vw;
-    left: 2.084418968212611vw;
+    top:0px;
+    left: 40px;
 }
 
-/*.letter letter-e{}
+.letter letter-e{}
 .stem{
     background: black;
     width: 10px;
@@ -453,34 +490,34 @@ html, body {
     position: absolute;
     top: 30px;
     left: 40px;
-}*/
+}
 
 .letter-i{
-    width:0.5211047420531527vw;
+    width:10px;
 }
 .stem_i{
-    background: rgb(255, 0, 0);
-    width: 0.5211047420531527vw;
-    height: 3.6477331943720688vw; 
+    background: rgb(0, 0, 0);
+    width: 10px;
+    height: 70px; 
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
     border-bottom-left-radius: 80px 80px;
     position: absolute;
-    top: 1.5633142261594581vw;
-    left: 0vw;
+    top: 30px;
+    left: 0px;
 }
 .dot{
-    background: rgb(255, 0, 0);
-    width:0.5211047420531527vw;
-    height: 0.5211047420531527vw;
+    background: rgb(0, 0, 0);
+    width:10px;
+    height: 10px;
     border-radius: 35%;
     position: absolute;
-    top: 0.7816571130797291vw;
+    top: 15px;
     left:0;
 }
 
-/*.letter-j{
+.letter-j{
     width: 10px
 }
 .straight_stem_j{
@@ -531,47 +568,47 @@ html, body {
     position: absolute;
     top: 0px;
     left: 0px; 
-}*/
+}
 
 .letter letter-k{}
 .upper_stem_k{
-   background: rgb(255, 0, 0);
-    width: 0.5211047420531527vw;
-    height: 1.5633142261594581vw;
+   background: rgb(0, 0, 0);
+    width: 10px;
+    height: 30px;
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
     border-bottom-left-radius: 80px 80px;
     position: absolute;
-    top: 0.5211047420531527vw;
-    right: 0.7816571130797291vw;
+    top: 10px;
+    right: 15px;
 }
 .middle_stem_k{
-    background: rgb(255, 0, 0);
-    width: 1.8238665971860344vw;
-    height: 0.5211047420531527vw;
+    background: rgb(0, 0, 0);
+    width: 35px;
+    height: 10px;
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
     border-bottom-left-radius: 80px 80px;
     position: absolute;
-    top: 2.344971339239187vw;
-    right: 0vw;
+    top: 45px;
+    right: 0px;
 }
 .bottom_stem_k{
-    background: rgb(255, 0, 0);
-    width: 0.5211047420531527vw;
-    height: 2.8660760812923396vw;
+    background: rgb(0, 0, 0);
+    width: 10px;
+    height: 55px;
     border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
     border-bottom-left-radius: 80px 80px;
     position: absolute;
-    top: 2.344971339239187vw;
-    right: 0vw;
+    top: 45px;
+    right: 0px;
 }
 
-/*.letter-m{
+.letter-m{
     width: 80px;
 }
 .stem_2_m{
@@ -769,11 +806,11 @@ html, body {
     position: absolute;
     top: 10px;
     left: 0px;
-}*/
+}
 
 .letter letter-u{}
 
-/*.letter letter-v{}
+.letter letter-v{}
 .left_stem_2{
     background: black;
     width: 10px;
@@ -953,32 +990,22 @@ html, body {
     border-bottom-left-radius: 80px 80px;
     position: absolute;
     top: 55px;
-    left: 0px;
-}*/
+    left: 0px; 
+}
 
-#dudukiki {
+/* #dudukiki {
     padding: 10px;
-    width: 30.5vw;
-    height: 9.5vh;
-    top: 80vh;
-    left: 38vw;
+    width: 30vw;
+    height: 105vh;
+    top:70%;
+    left:35%;
     position: absolute;
 }
 
 img {
     width: 20vw;
     height: auto;
-    top: 40vh;
-    left: 40vw;
     position: absolute;
-}
-
-#everything{
-    
-    top: 50vh;
-    left: 50vw;
-    padding: 0;
-    positon: relative;
 }
 
 
@@ -993,11 +1020,6 @@ img {
   }
   
   .pixel {
-    background: rgb(0, 0, 0);
-    width: 200px;
-    height: 200px;
-    padding-top: 10%;
-    border-radius: 50%;
     float: left;
     opacity: 0.0;
     animation: blink 5s infinite;
@@ -1008,5 +1030,6 @@ img {
     25%   {opacity: 0.0;}
     50%   {opacity: 0.5;}
     100%  {opacity: 0.0;}
-  }
+  } */
+
 
